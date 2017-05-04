@@ -1,0 +1,412 @@
+/*color for navigation menu*/
+.navbar-inverse .navbar-nav > li > a
+{
+	color:white;
+	
+}
+/*for brand name style*/
+.navbar-brand a
+{
+	color:white;
+	font-weight:bold;
+	font-size:40px;
+	font-family:Satisfy;
+	position:relative;
+	text-decoration:none;
+}
+/*banner images*/
+	.carousel-inner > .item > img
+  {
+      margin: auto;
+	  height:450px;
+  }
+/*body background image*/
+/*body background*/
+.bdy
+{
+	background-image:url("../images/body1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+/*navigation menu*/
+.collapse .down li >a
+{
+	color:white;
+	font-size:15px;
+	font-style:italic;
+}
+/*sub-navigation menu*/
+.collapse .down .dropdown-menu 
+{
+	background-color:black;
+}
+.dropdown-menu li> a
+{
+	color:white !important;
+}
+.dropdown-menu li>a:hover
+{
+	background:white;
+}
+/*background for subnavigation*/
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover
+{
+	background-color:gray;
+}
+
+/*table for categoories*/
+.table td a
+{
+	text-decoration:none;
+	color:black;
+}
+/*table heading*/
+.table th
+{
+	font-size:1.5rem;
+}
+/*table data*/
+.table td a
+{
+	font-size:1.5rem;
+	font-style:italic;
+}
+
+
+/*toggle for show more and show less*/
+.read-more-state {
+  display: none;
+}
+.read-more-target {
+    display:none;
+	height:25rem;
+	-webkit-transition-duration: 5s ;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target 
+{	
+  display:block;
+}
+/*content change for checkbox*/
+.read-more-state ~ .read-more-trigger:before 
+{
+  content: 'Show more';
+}
+.read-more-state:checked ~ .read-more-trigger:before
+{
+  content: 'Show less';
+}
+/*style for checkbox*/
+.read-more-trigger 
+{
+  margin-top:10px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+/*zoom effect for image*/
+.reciepe:hover
+{
+	 transform:scale(1.05);
+}
+/*font style for jumbotron*/
+h1
+{
+	color:#F04173 !important;
+	text-shadow: 0 0 3px  #FF0000, 0 0 5px #0000FF;
+}
+h2
+{
+	color:#0C9D1E;
+}
+/*style for jumbotron*/
+.container-fluid .jumbotron
+{
+	border-radius:50%;
+	background-color:white;
+	font-family:Great Vibes;
+}    
+.jumbotron
+{
+	margin-top:5rem;
+}
+/*style for carousel arrow*/
+.controls 
+{
+	color:black;
+	text-align:center;
+}
+
+/*size for image in fratured products*/
+.image
+{
+	
+}
+.img-thumbnail
+{
+	padding:15px;
+	box-shadow:inset 0 0 25px black;
+}
+/*caption for images in featured products*/
+.item .caption p
+{
+	font-family:Satisfy;
+	font-size:2rem;
+}
+
+/*for space between carousel and jumbotron*/
+#myCarousel
+{
+	padding-top:55px;
+	
+}
+/*footer*/
+.footer
+{
+	
+	background:#727472;
+}
+/*footer headings*/
+.footer li h3
+{
+	color:white;
+}
+.footer li
+{
+	list-style-type:none;
+}
+/*style for anchor tag in footer*/
+.footer a 
+{
+	color:white;
+	margin-left:0px;
+	font-size:12px;
+	text-decoration:none;
+}
+/*color for glyphicon*/
+.location
+{
+	color:white;
+}
+h3
+{
+	font-size:2rem;
+}
+/*width for map*/
+.map
+{
+		
+}
+/*stle for copyright*/
+.copyright
+{
+	padding-top:10px;
+	background:black;
+	padding-bottom:10px;
+}
+/*footer glyphicon*/
+.copy-icon
+{
+	font-size:12px;
+}
+
+
+
+/*query to adjust the contents according to the screen size*/
+@media (min-width:300px)and (max-width:459px)
+{
+	.carousel-inner > .item > img
+  {
+	  height:200px;
+  }
+	.reciepe
+	{
+		
+		height:28rem;
+	}
+	.image
+	{
+		
+		height:25rem;
+	}
+	.navbar-brand a
+	{
+		font-size:25px;
+	}
+	h3
+	{
+		font-size:18px!important;
+		
+	}
+	
+	
+}
+
+@media (max-width:765px) and (min-width:460px)
+{
+	.carousel-inner > .item > img
+  {
+	  height:250px;
+  }
+	.reciepe
+	{
+		width:70%;
+		height:28rem;
+	}
+	.image
+	{
+		width:70%;
+		height:35rem;
+	}
+	.navbar-collpase .down li a 
+	{
+		padding:10px;
+	}
+	h3
+	{
+		font-size:3rem;
+	}
+	.footer a 
+	{
+		font-size:20px;
+	}
+	
+	
+}
+
+@media (max-width:1299px) and (min-width:766px)
+{
+	h3
+	{
+		font-size:3rem;
+	}
+	
+	.navbar-right
+	{
+		font-size:17px;
+	}
+
+	.reciepe
+	{
+		width:100%;
+		height:30rem;
+	}
+	.image
+	{
+		width:100%;
+		height:30rem;
+	}
+		.copy-icon
+	{
+		font-size:18px;
+	}
+	.location
+	{
+		font-size:18px;
+	}
+	.footer
+	{
+		width:100%;
+	}
+	.footer a 
+	{
+		font-size:20px;
+	}
+	.navbar-brand a
+	{
+		font-size:30px;
+	}
+	
+	.item .caption p
+	{
+		font-size:3rem;
+	}
+	.read-more-trigger 
+	{
+		font-size:1.3em;
+	}
+	.table th
+	{
+		font-size:2.5rem;
+	}
+	.table td a
+	{
+		font-size:2rem;
+	}
+}
+
+@media  (min-width:1300px)
+{
+	.reciepe
+	{
+		width:100%;
+		height:50rem;
+	}
+	.image
+	{
+		width:80%;
+		height:50rem;
+	}
+
+	.copy-icon
+	{
+		font-size:20px;
+	}
+	.location
+	{
+		font-size:24px;
+	}
+	.footer a 
+	{
+		font-size:28px;
+	}
+	.item .caption p
+	{
+		font-size:3.5rem;
+	}
+	
+	.read-more-trigger 
+	{
+		font-size:2em;
+	}
+	.table th
+	{
+		font-size:3.5rem;
+	}
+	.table td a
+	{
+		font-size:3rem;
+	}
+	.navbar-brand a
+	{
+		font-size:50px;
+	}
+	.collapse .down li >a
+	{
+		margin-top:10px;
+		padding:8px;
+		font-size:25px;
+	}
+	.navbar-right
+	{
+		font-size:17px;
+	}
+
+	h1
+	{
+		font-size:10rem !important;
+	}
+	h2{
+		font-size:5rem;
+	}
+	h3
+	{
+		font-size:3rem
+	}
+	
+}
